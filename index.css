@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Playfair+Display:ital@1&family=Roboto&family=Smooch&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+}
+
+.top-header{
+  padding: 20px 40px;
+  width: 100%;
+  color: #fff;
+  margin: auto auto;
+  background: #000000;
+  text-align: center;
+}
+
+header{
+  background-image: url('images/Background\ Image.webp');
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.title-background-image{
+  display: flex;
+  height:80px;
+  place-items: center;
+  justify-content:space-around;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap:10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.container-link{
+  display: flex;
+  justify-content: flex-end;
+  width:453px;
+  height:21px;
+  margin-left: 170px;
+  font-weight: bold;
+}
+
+
+.link{
+  display: flex;
+  gap:25px;  
+}
+
+
+.firstlink{
+  color: #fff;
+  text-decoration: none;
+  letter-spacing:1px;
+}
+
+.firstlink:hover{
+  text-decoration:underline;
+}
+
+.icon-earth{
+  display: flex;
+  gap:20px;
+  color: #fff;
+  justify-content:center;
+  padding:10px;
+}
+
+.icon-earth:nth-last-child(2){
+  margin-top: -5px;
+}
+
+.icon-earth:hover{
+  background-color:rgba(255,255,255,0.1);
+  padding:10px;
+  border-radius: 110px;
+}
+
+.container-three{
+  display: flex;
+  justify-content:flex-end;
+  gap:20px;
+  place-items: center;
+  width: 453px;
+  height:54px;  
+}
+
+.icon-right{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  width:97px;
+  height:40px; 
+}
+
+.icon-three-first{
+  position:absolute;
+  top:2px;
+}
+
+.icon-right-container{
+  width:77px;
+  height:40px;
+  border-radius: 110px;
+  background:#fff;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  position: relative;
+}
+
+.container-input{
+  display: flex;
+  margin-left: 100px;
+  align-items:center;
+  justify-content: center;
+}
+
+.container-input-inside{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width:870px;
+  height:66px;
+  border-radius: 110px;
+  background-color: #fff;
+}
+
+.container-inside{
+  width:258px;
+  height:39px;
+  /* flex: 3; */
+  margin-left: 38px;
+  border-right: 1px solid #dadada;
+  position: relative;
+}
+
+.container-inside:nth-last-child(1){
+  border-right:none;
+  width:250px;
+  height:20px;
+}
+
+.group-inside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:157;
+  height:38px;
+  position: absolute;
+  top:-10px; 
+}
+
+.btn-search{
+  width: 64px;
+  height:45px;
+}
+
+.container-inside-second{
+  width:130px;
+  height:39px;
+  margin-left: 38px;
+  border-right: 1px solid #dadada;
+  width: 13rem;
+}
+
+.input-banner{
+  border:none;
+  width:184px;
+  height:18px;
+}
+
+.input-banner-second{
+  border:none;
+  width:130px;
+  height:18px;
+}
+
+.input-banner-three{
+  border:none;
+  width:113px;
+  height:18px;
+}
+
+
+.search_button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fa215b;
+  position: absolute;
+  top:-10px;
+  right:10px;
+}
+
+.search_button>svg{
+ position:absolute;
+ top:12px;
+ left:13px;
+}
+
+.container-banner-text{
+  display:flex;
+  width:1340px;
+  height:625px;
+}
+
+.banner-text{
+  display:flex;
+  font-size: 28px;
+  color: #fff;
+  margin-top: 130px;
+  margin-left: 65px;
+}
+.container-banner{
+  margin: 0;
+}
+
+.btn-banner{
+  width: 155px;
+  height: 32px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-banner:hover{
+  background-color:orange;
+}
+
+/* ------------------------------------ */
+
+
+/* section start */
+.container-section{
+  display:flex;
+  justify-content: center;
+}
+
+.container-inside-section{
+ display:flex;
+ flex-wrap: wrap;
+ align-items:center;
+ justify-content:center;
+  width:1370px;
+  height:160px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.image-locations{
+  width:70px;
+  height:70px;
+}
+
+.locations-information{
+  display:flex;
+  align-items:center;
+  width: 327px;
+  height:70px;
+}
+
+.locations-detail{
+  display:flex;
+  flex-direction:column;
+  margin-left: 20px;
+}
+
+
+.container-accom{  
+  overflow: hidden;
+}
+
+.container-accom-inside{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+
+
+}
+.accom-head{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  font-size: 28px;
+  font-weight: bold;
+
+
+}
+
+.img-accom{
+  width:327px;
+  height:327px;
+  border-radius: 10px;
+}
+
+.accom-detail{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.container-ex{  
+  overflow: hidden;
+  background-color: black;
+  padding:50px 80px;
+}
+
+.container-ex-inside{
+  display: flex;
+  justify-content: center;
+  gap:15px;
+  color: white;
+}
+
+.head-ex-1{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 32px;
+}
+
+.head-ex-2{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.img-ex-content{
+  width:440px;
+  height:440px;
+  border-radius: 10px;
+}
+
+.img-ex{
+  display:flex;
+  flex-direction: column;
+}
+
+.container-accom-three{
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.img-accom-three{
+  width:440px;
+  height:293px;
+  border-radius: 10px;
+}
+/* section end */
+
+
+/* footer */
+footer{
+  margin-left: 80px;
+  overflow: hidden;  
+}
+
+li{
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+ul li a{
+  text-decoration: none;
+  color:black;
+  font-size: 14px;
+
+}
+
+ul li a:hover{
+  color: orange;
+}
+
+.footer-detail{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.footer-detail-second{
+  display: flex;
+  justify-content: space-between;
+  margin:10px 70px;
+  font-size: 14px;
+}
+
+.footer-detail-second  a{
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-detail-second  a:hover{
+  color: orange;
+}
+
+/* end footer */
+
+
+
